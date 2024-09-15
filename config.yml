@@ -1,0 +1,13 @@
+rounding: 5
+min_purchase_therhold_rub: 50000
+purchase_types:
+  - type: white
+    cash_only: false
+    minimum_order_rub: 400000
+    delay_days: 70
+    max_treshold_for_order_period_weeks: 9
+  - type: cargo
+    cash_only: true
+    minimum_order_rub: 0
+    max_treshold_for_order_period_weeks: 5
+    delay_days: 35
